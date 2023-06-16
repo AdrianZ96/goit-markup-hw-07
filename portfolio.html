@@ -17,38 +17,34 @@
   <body>
     <div class="nav-border">
       <div class="container">
-        <header class="head-container hd-section">
-          <nav class="menu">
-            <menu class="header-nav">
+        <header class="main-header hd-section">
+          <nav class="main-header__menu">
+            <menu class="main-header__nav">
               <li>
-                <a href="index.html"
-                  ><p class="head-logo">
-                    <span class="webname">Web</span>Studio
-                  </p>
+                <a href="index.html" class="main-header__logo"
+                  ><span class="logo--color">Web</span>Studio
                 </a>
               </li>
-              <li><a href="index.html" class="submenu">Agencja</a></li>
-              <li>
-                <a href="portfolio.html" class="submenu is-active">Portfolio</a>
-              </li>
-              <li><a href="#contact" class="submenu">Kontakt</a></li>
+              <li><a href="index.html" class="main-header__submenu"> Agencja</a></li>
+              <li><a href="portfolio.html" class="main-header__submenu current">Portfolio</a></li>
+              <li><a href="#contact" class="main-header__submenu">Kontakt</a></li>
             </menu>
           </nav>
-          <ul class="list-style">
+          <ul class="main-header__list">
             <li>
               <a
                 href="mailto:info@devstudio.com"
                 target="_blank"
-                class="contacts">
-                <svg class="nav-icons" width="16" height="12">
+                class="main-header__contacts">
+                <svg class="main-header__icons" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:48111111111" class="contacts">
-                <svg class="nav-icons" width="16" height="12">
+              <a href="tel:48111111111" class="main-header__contacts">
+                <svg class="main-header__icons" width="16" height="12">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 +48 111 111 111</a
@@ -239,27 +235,27 @@
     <footer class="footer-bg section-ft">
       <div class="container foot-panel">
         <div>
-          <a href="index.html" class="footer-logo"
-            ><p class="ft-margin"><span class="webname">Web</span>Studio</p>
+          <a href="index.html" class="footer-bg__logo"
+            ><p class="ft-margin"><span class="logo--color">Web</span>Studio</p>
           </a>
           <address id="contact">
-            <p class="footaddres">m.Warszawa, Aleje Jerozolimskie 21</p>
+            <p class="footer-bg__addres">m.Warszawa, Aleje Jerozolimskie 21</p>
 
-            <a href="mailto:info@devstudio.com" target="_blank" class="foot">
-              <p class="contacts-ft">info@devstudio.com</p>
+            <a href="mailto:info@devstudio.com" target="_blank" class="footer-bg__link">
+              <p class="footer-bg__contacts">info@devstudio.com</p>
             </a>
 
-            <a href="tel:48111111111" class="foot">
-              <p class="contacts-ft">+48 111 111 111</p>
+            <a href="tel:48111111111" class="footer-bg__link">
+              <p class="footer-bg__contacts">+48 111 111 111</p>
             </a>
           </address>
         </div>
         <div>
-          <p class="join">Dołącz do nas</p>
-          <ul class="icons">
+          <p class="footer-bg__join">Dołącz do nas</p>
+          <ul class="footer-bg__icons">
             <li>
               <a>
-                <svg class="social-media-ft">
+                <svg class="footer-bg__social">
                   <use
                     href="./images/icons.svg#icon-instagram-2"
                     width="20"
@@ -269,7 +265,7 @@
             </li>
             <li>
               <a>
-                <svg class="social-media-ft">
+                <svg class="footer-bg__social">
                   <use
                     href="./images/icons.svg#icon-twitter-1"
                     width="20"
@@ -279,7 +275,7 @@
             </li>
             <li>
               <a>
-                <svg class="social-media-ft">
+                <svg class="footer-bg__social">
                   <use
                     href="./images/icons.svg#icon-facebook-1"
                     width="20"
@@ -289,7 +285,7 @@
             </li>
             <li>
               <a>
-                <svg class="social-media-ft">
+                <svg class="footer-bg__social">
                   <use
                     href="./images/icons.svg#icon-linkedin-1"
                     width="20"
@@ -299,13 +295,13 @@
             </li>
           </ul>
         </div>
-        <div class="newsletter">
-          <p class="join">Zapisz się do newslettera</p>
-          <form class="ft-form">
-            <input type="email" class="ft-input" placeholder="E-mail" />
-            <button type="submit" class="send-email">
+        <div class="footer-bg__newsletter">
+          <p class="footer-bg__join">Zapisz się do newslettera</p>
+          <form class="footer-bg__form">
+            <input type="email" class="footer-bg__input" placeholder="E-mail" />
+            <button type="submit" class="footer-bg__send-email">
               <p>Zapisz się</p>
-              <svg class="send-icon" width="24" height="24">
+              <svg class="footer-bg__send-icon" width="24" height="24">
                 <use href="./images/form-icons.svg#icon-icon-send"></use>
               </svg>
             </button>
