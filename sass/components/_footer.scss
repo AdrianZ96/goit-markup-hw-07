@@ -1,0 +1,138 @@
+.footer-bg {
+  background: #2f303a;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin: 0;
+    &__logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--darkbd-fontcolor);
+  text-decoration: none;
+}
+    &__addres {
+  font-size: var(--mainfont-size);
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--darkbd-fontcolor);
+  padding-top: 20px;
+  padding-bottom: 4.5px;
+  margin: 0;
+}
+&__contacts {
+  padding-block: 4.5px;
+  margin: 0;
+  transition: var(--animation-main);
+  &:hover {
+    transform: translate(20%);
+  }
+}
+&__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: var(--mainfont-size);
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+        color: var(--focus-active-hovercolor);
+      }
+    &:hover {
+        color: var(--focus-active-hovercolor);
+    }
+}
+&__join {
+    font-weight: 700;
+    font-size: var(--mainfont-size);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  &__input {
+    width: 358px;
+    height: 50px;
+    background-color: #2f303a;
+    padding: 15px 16px;
+    border-radius: 4px;
+    color: var(--darkbd-fontcolor);
+  }
+  &__icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+  }
+  &__social {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    border-radius: 50%;
+    fill: var(--darkbd-fontcolor);
+    background: rgba(255, 255, 255, 0.1);
+    transition: var(--animation-main),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    & use {
+        display: block;
+        transform: translate(25%, 25%);
+      }
+    &__social:focus {
+        background-color: var(--focus-active-hovercolor);
+        cursor: pointer;
+        transform: scale(0.9);
+      }
+    &__social:hover {
+        background-color: var(--focus-active-hovercolor);
+        cursor: pointer;
+        transform: scale(0.9);
+      }
+
+}
+&__send-icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+  }
+  &__send-email {
+    background-color: var(--focus-active-hovercolor);
+    color: var(--darkbd-fontcolor);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    fill: var(--darkbd-fontcolor);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    transition: var(--animation-main);
+    &:focus {
+        transform: scale(0.9);
+      }
+    &:hover {
+        transform: scale(0.9);
+    }
+
+  }
+
+
+
+
+
+}
