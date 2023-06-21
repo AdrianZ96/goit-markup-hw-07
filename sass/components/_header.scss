@@ -26,28 +26,27 @@
     color: black;
     margin: 0;
     margin-right: 93px;
-
-    &--color {
-      color: var(--focus-active-hovercolor);
+    &__color {
+      color: $focus-active-hovercolor;
     }
   }
   &__submenu {
     font-weight: 500;
-    font-size: var(--mainfont-size);
+    font-size: &mainfont-size;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--mainfontcolor);
+    color:  $mainfontcolor;
     text-decoration: none;
     padding-right: 32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
-      color: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
     }
     &:focus {
-      color: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
     }
     &:active {
-      color: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
     }
   }
   &__list {
@@ -61,10 +60,10 @@
     margin-right: 10px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
-      color: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
     }
     &:focus {
-      color: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
     }
   }
   &__contacts {
@@ -74,18 +73,18 @@
     font-size: var(--mainfont-size);
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--shadowfontcolor);
+    color: $shadowfontcolor;
     text-decoration: none;
-    fill: var(--shadowfontcolor);
+    fill:  $shadowfontcolor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus {
-      color: var(--focus-active-hovercolor);
-      fill: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
+      fill: $focus-active-hovercolor;
     }
     &:hover {
-      color: var(--focus-active-hovercolor);
-      fill: var(--focus-active-hovercolor);
+      color: $focus-active-hovercolor;
+      fill: $focus-active-hovercolor;
     }
   }
 }
@@ -102,7 +101,8 @@
     left: 0;
     width: 66%;
     height: 4px;
-    background-color: var(--focus-active-hovercolor);
+    background-color: $focus-active-hovercolor;
     border-radius: 2px;
   }
 }
+

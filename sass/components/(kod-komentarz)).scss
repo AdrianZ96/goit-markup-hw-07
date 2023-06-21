@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: "Roboto", sans-serif;
   background-color: var(--darkbd-fontcolor);
   color: var(--mainfontcolor);
@@ -38,7 +38,7 @@ a {
   margin: 0;
   margin-right: 93px;
 }
-.main-header__logo--color {
+.main-header__logo__color {
   color: var(--focus-active-hovercolor);
 }
 .main-header__submenu {
@@ -643,7 +643,7 @@ a {
   border-color: var(--focus-active-hovercolor);
   cursor: pointer;
 }
-/* Portfolio main content strony */
+ Portfolio main content strony 
 .portfolio-main {
   background: var(--darkbd-fontcolor);
 }
@@ -738,3 +738,4 @@ a {
   color: var(--mainfontcolor);
   margin: 0;
 }
+**/

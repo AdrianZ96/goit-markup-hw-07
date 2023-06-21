@@ -1,7 +1,10 @@
 @use "./utils/_variables.scss" as *;
-@import "./components/_navigations.scss";
 @import "./components/_global.scss";
 @import "./components/_header.scss";
 @import "./components/_footer.scss";
-@import "./components/_button-space.scss";
-@import "./components/_modal.scss";
+@import "./components/_button.scss";
+@import "./components/_upper.scss";
+@import "./components/_main-middle.scss";
+@import "./components/_main.scss";
+@import "./components/_lower.scss";
+@import "./components/_port-main.scss";

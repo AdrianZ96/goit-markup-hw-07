@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +24,7 @@
           <menu class="main-header__nav">
             <li>
               <a href="index.html" class="main-header__logo"
-                ><span class="logo--color">Web</span>Studio
+                ><span class="main-header__logo__color">Web</span>Studio
               </a>
             </li>
             <li><a href="index.html" class="main-header__submenu current"> Agencja</a></li>
@@ -75,7 +75,7 @@
               <p class="modal-win__text">Zostaw swoje dane w formularzu poniżej</p>
               <form class="form">
                 <div class="form__space">
-                  <svg class="form__icons" width="18" height="18" focusable="true">
+                  <svg class="form__space__icons" width="18" height="18" focusable="true">
                     <use href="./images/form-icons.svg#icon-person" class="form__icon-size"></use>
                   </svg>
                   <label for="name">
@@ -84,7 +84,7 @@
                   <input type="text" name="name" id="name" class="form__input" />
                 </div>
                 <div class="form__space">
-                  <svg class="form__icons" width="18" height="18">
+                  <svg class="form__space__icons" width="18" height="18">
                     <use href="./images/form-icons.svg#icon-phone" class="form__icon-size"></use>
                   </svg>
                   <label for="phone"> <p class="form__label-text">Telefon</p> </label>
@@ -95,7 +95,7 @@
                     class="form__input" />
                 </div>
                 <div class="form__space">
-                  <svg class="form__icons" width="18" height="18">
+                  <svg class="form__space__icons" width="18" height="18">
                     <use href="./images/form-icons.svg#icon-email" class="form__icon-size"></use>
                   </svg>
                   <label for="email">
@@ -110,7 +110,7 @@
                 <label>
                   <p class="form__label-text">Komentarz</p>
                   <textarea
-                    class="form_textarea"
+                    class="form__textarea"
                     placeholder="Wprowadź tekst"></textarea>
                 </label>
                 <div class="form__checkbox">
@@ -143,7 +143,7 @@
                     height="70"></use>
                 </svg>
                 <h4 class="upper-main__title">Lorem ipsum</h4>
-                <p class="text">
+                <p class="upper-main__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
@@ -482,7 +482,7 @@
       <div class="container foot-panel">
         <div>
           <a href="index.html" class="footer-bg__logo"
-            ><p class="ft-margin"><span class="logo--color">Web</span>Studio</p>
+            ><p class="ft-margin"><span class="footer-bg__logo__color">Web</span>Studio</p>
           </a>
           <address id="contact">
             <p class="footer-bg__addres">m.Warszawa, Aleje Jerozolimskie 21</p>
@@ -547,7 +547,7 @@
             <input type="email" class="footer-bg__input" placeholder="E-mail" />
             <button type="submit" class="footer-bg__send-email">
               <p>Zapisz się</p>
-              <svg class="footer-bg__send-icon" width="24" height="24">
+              <svg class="footer-bg__send-email__icon" width="24" height="24">
                 <use href="./images/form-icons.svg#icon-icon-send"></use>
               </svg>
             </button>

@@ -16,3 +16,30 @@ body {
   .section {
     padding-block: 93px;
   }
+  .wrapper {
+    background: #e5e5e5;
+  }
+  .is-hidden {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .foot-panel {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 70px;
+  }
+  .section-ft {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  p{
+    margin: 0;
+  }
+  .nav-border {
+    border-bottom: 1px solid #ececec;
+    width: 1600px;
+    margin: 0;
+  }
